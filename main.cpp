@@ -19,6 +19,10 @@ vector<int> Torneo(vector<int> habilidades, int N, int K) {
     int retador = habilidades[1];
     vector<int> resultado(2);
 
+    for (int juego = 1; juego <= K; ++juego) {
+           
+    }
+
 }
 
 int main(){
