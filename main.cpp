@@ -30,7 +30,7 @@ vector<int> Torneo(vector<int> habilidades, int N, int K) {
             cola.push(jugadorActual);
             jugadorActual = retador;
         }
-        
+
         if (victorias == N) {
             cola.push(jugadorActual);
             jugadorActual = cola.front();
@@ -40,7 +40,7 @@ vector<int> Torneo(vector<int> habilidades, int N, int K) {
         retador = cola.front();
         cola.pop();
     }
-
+    return resultado;
 }
 
 int main(){
