@@ -44,5 +44,13 @@ vector<int> Torneo(vector<int> habilidades, int N, int K) {
 }
 
 int main(){
+    std::vector<int> habilidades1 = {1, 2, 3};
+    std::vector<int> habilidades2 = {49, 24, 26, 12, 5, 33, 25, 30, 35, 41, 46, 23, 21, 3, 38, 43, 11, 19, 34, 29, 20, 32, 39, 7, 50};
+    std::vector<int> habilidades4 = {30, 12};
+    
+    int N1=2, K1=2;
+    int N2=10, K2=399;
+    int N3=2, K3=4;
+    int N4=34, K4=80;
 
 }
