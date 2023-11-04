@@ -58,5 +58,10 @@ int main(){
     std::vector<int> resultado3 = Torneo(habilidades1, N3, K3);
     std::vector<int> resultado4 = Torneo(habilidades4, N4, K4);
 
-    
+    std::cout << "Resultado 1: {" << resultado1[0] << ", " << resultado1[1] << "}\n";
+    std::cout << "Resultado 2: {" << resultado2[0] << ", " << resultado2[1] << "}\n";
+    std::cout << "Resultado 3: {" << resultado3[0] << ", " << resultado3[1] << "}\n";
+    std::cout << "Resultado 4: {" << resultado4[0] << ", " << resultado4[1] << "}\n";
+
+    return 0;
 }
