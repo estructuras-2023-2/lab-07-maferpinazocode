@@ -4,10 +4,15 @@
 using namespace std;
 
 vector<int> Torneo(vector<int> habilidades, int N, int K) {
-    int tam = habilidades.size();
+    int size = habilidades.size();
     int ganador = 0;
     int perdedor = 0;
+    
     queue<int> cola;
+
+    for (int i = 2; i < tam; ++i) {
+    cola.push(habilidades[i]);
+}
 }
 
 int main(){
