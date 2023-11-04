@@ -20,7 +20,16 @@ vector<int> Torneo(vector<int> habilidades, int N, int K) {
     vector<int> resultado(2);
 
     for (int juego = 1; juego <= K; ++juego) {
-           
+           if (jugadorActual > retador) {
+            victorias++;
+            resultado = {retador, jugadorActual};
+            cola.push(retador);
+        } else {
+            victorias = 1;
+            resultado = {jugadorActual, retador};
+            cola.push(jugadorActual);
+            jugadorActual = retador;
+        }
     }
 
 }
