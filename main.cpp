@@ -53,4 +53,10 @@ int main(){
     int N3=2, K3=4;
     int N4=34, K4=80;
 
+    std::vector<int> resultado1 = Torneo(habilidades1, N1, K1);
+    std::vector<int> resultado2 = Torneo(habilidades2, N2, K2);
+    std::vector<int> resultado3 = Torneo(habilidades1, N3, K3);
+    std::vector<int> resultado4 = Torneo(habilidades4, N4, K4);
+
+    
 }
